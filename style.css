@@ -351,13 +351,13 @@ nav .menu-btn i {
 @keyframes div_animate {
     0% {
         opacity: 0;
-        transform: translateX(100%);
+        transform: translateX(30%);
     }
 
-    50% {
+    /* 50% {
         opacity: .4;
         transform: translateX(50%);
-    }
+    } */
 
     100% {
         opacity: 1;
@@ -894,6 +894,7 @@ textarea {
     /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Contact <<<<<<<<<<<<,,,, */
 
     .contact_side {
+        height: 100%;
         flex-direction: column;
     }
 
@@ -936,7 +937,7 @@ textarea {
     }
 
     .contact_text h1 {
-        font-size: 23px;
+        font-size: 4vmax;
     }
 
     .contact_item {
@@ -952,17 +953,17 @@ textarea {
     }
 
     .contact_item input {
-        padding: .3rem;
-        border-radius: .5rem;
-        margin-top: .2rem;
+        padding: .3vmax;
+        border-radius: .5vmax;
+        margin-top: .2vmax;
     }
 
     #textarea {
-        border-radius: .3rem;
+        border-radius: .3vmax;
     }
 
     #subBtn {
-        padding: .6rem;
+        padding: .6vmax;
         background: #fff;
         color: #000;
         font-weight: 600;
@@ -981,8 +982,8 @@ textarea {
         flex-direction: column;
         /* background: #000; */
         position: absolute;
-        right: 10px;
-        bottom: 10%;
+        right: .1vmax;
+        bottom: 1vmax;
         display: block;
 
     }
@@ -1012,7 +1013,7 @@ textarea {
 }
 
     .social i {
-        font-size: 50px;
+        font-size: 5vmax;
         /* background: #e74c3c; */
         /* margin-bottom: 30px; */
        
